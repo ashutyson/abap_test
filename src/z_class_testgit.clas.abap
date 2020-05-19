@@ -1,14 +1,18 @@
-class Z_CLASS_TESTGIT definition
-  public
-  final
-  create public .
+CLASS z_class_testgit DEFINITION
+  PUBLIC
+  FINAL
+  CREATE PUBLIC .
 
-public section.
-protected section.
-private section.
+PUBLIC SECTION.
+interfaces if_oo_adt_classrun.
+PROTECTED SECTION.
+PRIVATE SECTION.
 ENDCLASS.
 
 
 
-CLASS Z_CLASS_TESTGIT IMPLEMENTATION.
+CLASS z_class_testgit IMPLEMENTATION.
+METHOD IF_OO_ADT_CLASSRUN~MAIN.
+OUT->WRITE('HELLO WORLD').
+ENDMETHOD.
 ENDCLASS.
